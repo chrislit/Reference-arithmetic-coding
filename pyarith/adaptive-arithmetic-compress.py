@@ -8,7 +8,7 @@
 # frequency table and updates it after each byte decoded. It is by design that the compressor and
 # decompressor have synchronized states, so that the data can be decompressed properly.
 # 
-# Copyright (c) Project Nayuki
+# Copyright (c) 2016-2018 Project Nayuki
 # 
 # https://www.nayuki.io/page/reference-arithmetic-coding
 # https://github.com/nayuki/Reference-arithmetic-coding

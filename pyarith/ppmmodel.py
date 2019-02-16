@@ -1,6 +1,6 @@
 # 
 # Reference arithmetic coding
-# Copyright (c) Project Nayuki
+# Copyright (c) 2016-2018 Project Nayuki
 # 
 # https://www.nayuki.io/page/reference-arithmetic-coding
 # https://github.com/nayuki/Reference-arithmetic-coding

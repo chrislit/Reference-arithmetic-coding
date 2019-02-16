@@ -6,7 +6,7 @@
 # Note that both the compressor and decompressor need to use the same PPM context modeling logic.
 # The PPM algorithm can be thought of as a powerful generalization of adaptive arithmetic coding.
 # 
-# Copyright (c) Project Nayuki
+# Copyright (c) 2016-2018 Project Nayuki
 # 
 # https://www.nayuki.io/page/reference-arithmetic-coding
 # https://github.com/nayuki/Reference-arithmetic-coding

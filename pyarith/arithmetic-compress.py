@@ -7,7 +7,7 @@
 # values and 1 symbol for the EOF marker. The compressed file format starts with a list
 # of 256 symbol frequencies, and then followed by the arithmetic-coded data.
 # 
-# Copyright (c) Project Nayuki
+# Copyright (c) 2016-2018 Project Nayuki
 # 
 # https://www.nayuki.io/page/reference-arithmetic-coding
 # https://github.com/nayuki/Reference-arithmetic-coding
