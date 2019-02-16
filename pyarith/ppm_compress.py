@@ -1,8 +1,8 @@
 # 
 # Compression application using prediction by partial matching (PPM) with arithmetic coding
 # 
-# Usage: python ppm-compress.py InputFile OutputFile
-# Then use the corresponding ppm-decompress.py application to recreate the original input file.
+# Usage: python ppm_compress.py InputFile OutputFile
+# Then use the corresponding ppm_decompress.py application to recreate the original input file.
 # Note that both the compressor and decompressor need to use the same PPM context modeling logic.
 # The PPM algorithm can be thought of as a powerful generalization of adaptive arithmetic coding.
 # 
@@ -17,7 +17,7 @@ import arithmeticcoding, ppmmodel
 python3 = sys.version_info.major >= 3
 
 
-# Must be at least -1 and match ppm-decompress.py. Warning: Exponential memory usage at O(257^n).
+# Must be at least -1 and match ppm_decompress.py. Warning: Exponential memory usage at O(257^n).
 MODEL_ORDER = 3
 
 
@@ -25,7 +25,7 @@ MODEL_ORDER = 3
 def main(args):
 	# Handle command line arguments
 	if len(args) != 2:
-		sys.exit("Usage: python ppm-compress.py InputFile OutputFile")
+		sys.exit("Usage: python ppm_compress.py InputFile OutputFile")
 	inputfile  = args[0]
 	outputfile = args[1]
 	

@@ -1,8 +1,8 @@
 # 
 # Compression application using adaptive arithmetic coding
 # 
-# Usage: python adaptive-arithmetic-compress.py InputFile OutputFile
-# Then use the corresponding adaptive-arithmetic-decompress.py application to recreate the original input file.
+# Usage: python adaptive_arithmetic_compress.py InputFile OutputFile
+# Then use the corresponding adaptive_arithmetic_decompress.py application to recreate the original input file.
 # Note that the application starts with a flat frequency table of 257 symbols (all set to a frequency of 1),
 # and updates it after each byte encoded. The corresponding decompressor program also starts with a flat
 # frequency table and updates it after each byte decoded. It is by design that the compressor and
@@ -23,7 +23,7 @@ python3 = sys.version_info.major >= 3
 def main(args):
 	# Handle command line arguments
 	if len(args) != 2:
-		sys.exit("Usage: python adaptive-arithmetic-compress.py InputFile OutputFile")
+		sys.exit("Usage: python adaptive_arithmetic_compress.py InputFile OutputFile")
 	inputfile, outputfile = args
 	
 	# Perform file compression

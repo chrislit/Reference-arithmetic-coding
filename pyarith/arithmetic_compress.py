@@ -1,8 +1,8 @@
 # 
 # Compression application using static arithmetic coding
 # 
-# Usage: python arithmetic-compress.py InputFile OutputFile
-# Then use the corresponding arithmetic-decompress.py application to recreate the original input file.
+# Usage: python arithmetic_compress.py InputFile OutputFile
+# Then use the corresponding arithmetic_decompress.py application to recreate the original input file.
 # Note that the application uses an alphabet of 257 symbols - 256 symbols for the byte
 # values and 1 symbol for the EOF marker. The compressed file format starts with a list
 # of 256 symbol frequencies, and then followed by the arithmetic-coded data.
@@ -22,7 +22,7 @@ python3 = sys.version_info.major >= 3
 def main(args):
 	# Handle command line arguments
 	if len(args) != 2:
-		sys.exit("Usage: python arithmetic-compress.py InputFile OutputFile")
+		sys.exit("Usage: python arithmetic_compress.py InputFile OutputFile")
 	inputfile, outputfile = args
 	
 	# Read input file once to compute symbol frequencies
